@@ -19,7 +19,7 @@ document
       `*Convidados:* ${convidados} pessoas%0A` +
       `*Observações:* ${obs}`;
 
-    const numeroWhatsApp = "5521964249451";
+    const numeroWhatsApp = "5521964239451";
 
     const url = `https://wa.me/${numeroWhatsApp}?text=${mensagem}`;
 
