@@ -273,6 +273,11 @@ textarea:focus {
   width: 100%;
 }
 
+footer a {
+  text-decoration: none;
+  color: var(--gold);
+}
+
 @media (max-width: 768px) {
   .sobre-content {
     flex-direction: column;
