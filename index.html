@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buffet Isabel Maia | Excelência em Eventos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <h1>Isabel Maia</h1>
+          <span>Buffet & Gastronomia</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">História</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato" class="btn-nav">Orçamento</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Excelência e Qualidade</h2>
+        <p>
+          Seus convidados merecem o melhor. Realizando sonhos há mais de 10
+          anos.
+        </p>
+        <a href="#contato" class="btn-gold">Solicitar Orçamento Agora</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="section-pad">
+      <div class="container">
+        <div class="sobre-content">
+          <div class="texto">
+            <h2 class="section-title">Nossa História</h2>
+            <p>
+              Com <strong>10 anos de mercado</strong>, o Buffet Isabel Maia se
+              consolidou como referência em gastronomia e organização de
+              eventos.
+            </p>
+            <p>
+              Nossa missão é transformar datas especiais em memórias
+              inesquecíveis. Seja um casamento luxuoso ou um churrasco
+              descontraído, trazemos excelência em cada detalhe.
+            </p>
+            <p>
+              Recentemente premiados como
+              <strong>Empresa Destaque em Maricá - RJ</strong>, garantimos a
+              qualidade que seus convidados merecem.
+            </p>
+          </div>
+          <div class="imagem-destaque">
+            <img src="./img/loho.jpeg" alt="Buffet Isabel Maia" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="section-pad bg-dark">
+      <div class="container">
+        <h2 class="section-title text-center">Nossos Serviços</h2>
+        <div class="grid-servicos">
+          <div class="card">
+            <i class="fas fa-glass-cheers"></i>
+            <h3>Casamentos</h3>
+            <p>
+              Requinte e sofisticação para o dia mais importante da sua vida.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-crown"></i>
+            <h3>15 Anos</h3>
+            <p>Festas de debutante inesquecíveis com buffet completo.</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-child"></i>
+            <h3>Infantil</h3>
+            <p>Cardápios divertidos e deliciosos para as crianças.</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-fire"></i>
+            <h3>Churrasco</h3>
+            <p>O melhor churrasco completo para sua confraternização.</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-briefcase"></i>
+            <h3>Corporativo</h3>
+            <p>Coffee Break e eventos empresariais.</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-beer"></i>
+            <h3>Boteco</h3>
+            <p>Comida de boteco de alta qualidade para um evento despojado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section-pad">
+      <div class="container">
+        <h2 class="section-title text-center">Galeria de Eventos</h2>
+        <div class="grid-galeria">
+          <img src="./img/equipe.jpeg" alt="equipe" />
+          <img src="./img/feijoada.jpeg" alt="feijoada" />
+          <img src="./img/jantinha.jpeg" alt="jantinha" />
+          <img src="./img/jojo todynho.jpeg" alt="Coffee" />
+          <img src="./img/premiação.jpeg" alt="premiação" />
+          <img src="./img/batata.jpeg" alt="batata" />
+          <img src="./img/canape.jpeg" alt="canape" />
+          <img src="./img/churrasco.jpeg" alt="churrasco" />
+          <img src="./img/coffebreack.jpeg" alt="coffebreak" />
+          <img src="./img/creme.jpeg" alt="creme" />
+          <img src="./img/salgado.jpeg" alt="salgadinho" />
+          <img src="./img/kibe.jpeg" alt="kibe" />
+          <img src="./img/inicio.jpeg" alt="inicio" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section-pad bg-dark">
+      <div class="container">
+        <div class="contato-box">
+          <h2 class="section-title text-center">Solicite seu Orçamento</h2>
+          <p class="text-center">
+            Preencha os dados abaixo e fale diretamente conosco no WhatsApp.
+          </p>
+
+          <form id="form-orcamento">
+            <div class="input-group">
+              <label for="nome">Seu Nome</label>
+              <input
+                type="text"
+                id="nome"
+                required
+                placeholder="Ex: Maria Silva"
+              />
+            </div>
+
+            <div class="input-group">
+              <label for="tipo-evento">Tipo de Evento</label>
+              <select id="tipo-evento" required>
+                <option value="">Selecione...</option>
+                <option value="Casamento">Casamento</option>
+                <option value="15 Anos">15 Anos</option>
+                <option value="Infantil">Festa Infantil</option>
+                <option value="Churrasco">Churrasco</option>
+                <option value="Corporativo">Corporativo</option>
+                <option value="Boteco">Boteco</option>
+                <option value="Outro">Outro</option>
+              </select>
+            </div>
+
+            <div class="row">
+              <div class="input-group">
+                <label for="data">Data do Evento</label>
+                <input type="date" id="data" required />
+              </div>
+              <div class="input-group">
+                <label for="convidados">Nº de Convidados</label>
+                <input
+                  type="number"
+                  id="convidados"
+                  placeholder="Ex: 100"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="obs">Observações (Opcional)</label>
+              <textarea
+                id="obs"
+                rows="3"
+                placeholder="Local do evento, dúvidas..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-gold full-width">
+              <i class="fab fa-whatsapp"></i> Enviar para WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container text-center">
+        <p>&copy; 2024 Buffet Isabel Maia. Todos os direitos reservados.</p>
+        <p>Desenvolvido por <a href="#">Thaina Fontanezi</a></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
